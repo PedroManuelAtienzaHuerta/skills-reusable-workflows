@@ -11,7 +11,7 @@ jobs:
         nodeversion: [14, 16, 18, 20]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Run a multi-line script
         run: |
